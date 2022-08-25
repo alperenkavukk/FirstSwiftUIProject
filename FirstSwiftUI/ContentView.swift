@@ -9,8 +9,13 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
+        //Body içine tek görünüm konur fazlasını koymak için VStack, ZSTACK, HSTACK kullanılır
+        VStack{
+            Text("Hello SwiftUI").padding()
         Text("Hello, world!")
-            .padding()
+                .font(.largeTitle).bold().padding()
+        }
+        
     }
 }
 
